@@ -15,6 +15,10 @@ parts:
         title: Sample with Python
       - file: Docs/Pulumi/python-import
         title: Import Existing Resource with Python
+      - file: Docs/Pulumi/azure-simple-web
+        title: Azure 간단한 웹용 인프라 배포
+      - file: Docs/Pulumi/azure-import
+        title: Azure 기존 리소스 가져오기
   - caption: Continuous Integration & Continuous Delivery/Deployment
     chapters:
     - file: Docs/CICD/GitHubActions/index
