@@ -17,9 +17,8 @@ parts:
         title: Import Existing Resource with Python
   - caption: Continuous Integration & Continuous Delivery/Deployment
     chapters:
-    - file: Docs/GitHubActions/index
+    - file: Docs/CICD/GitHubActions/index
       title: GitHub Actions
-
   - caption: AI
     chapters:
     - file: Docs/AI/RemoteScriptAI/index
