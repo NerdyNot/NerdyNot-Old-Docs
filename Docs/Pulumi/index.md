@@ -10,7 +10,7 @@ Pulumi는 친숙한 프로그래밍 언어와 도구를 사용하여 클라우�
 
 ## 지원 언어 및 SDK
 
-Pulumi는 멀티 언어 인프라 코드 도구로서 오늘날 가장 일반적인 범용 프로그래밍 및 마크업 언어를 지원한다. 모든 Pulumi 지원 언어는 주요 클라우드에서 인프라를 프로비저닝 및 관리할 수 있으며, 일부 언어는 다른 언어에서 아직 사용할 수 없는 기능을 제공할 수 있다. 현재 지원되는 언어 및 런타임은 다음과 같다:
+Pulumi는 멀티 언어 인프라 코드 도구로서 오늘날 가장 일반적인 범용 프로그래밍 및 마크업 언어를 지원한다. 모든 Pulumi 지원 언어는 주요 클라우드에서 인프라를 프로비저닝 및 관리할 수 있으며, 일부 언어는 다른 언어에서 아직 사용할 수 없는 기능을 제공할 수 있다. 현재 지원되는 언어 및 런타임은 다음과 같다.
 
 - TypeScript & JavaScript (Node.js)
 - Python
@@ -23,7 +23,7 @@ Pulumi는 멀티 언어 인프라 코드 도구로서 오늘날 가장 일반적
 
 ## Pulumi 작동 원리
 
-Pulumi 플랫폼은 여러 구성 요소로 이루어져 있다:
+Pulumi 플랫폼은 여러 구성 요소로 이루어져 있다.
 
 - **소프트웨어 개발 키트 (SDK)**: Pulumi SDK는 공급자가 관리할 수 있는 각 유형의 리소스에 대한 바인딩을 제공한다. 이를 통해 모든 클라우드 및 모든 공급자에서 클라우드 리소스를 정의하고 관리할 수 있는 필요한 도구와 라이브러리를 제공한다.
 - **명령줄 인터페이스 (CLI)**: Pulumi는 주로 CLI를 사용하여 제어된다. Pulumi Cloud와 협력하여 클라우드 앱 및 인프라에 변경 사항을 배포한다. 팀 내에서 누가 언제 무엇을 업데이트했는지에 대한 기록을 유지한다. 이 CLI는 내부 루프 생산성뿐만 아니라 지속적 통합 및 전달 시나리오를 위해 설계되었다.
@@ -76,7 +76,7 @@ pulumi.export("public_dns", server.public_dns)
 
 ## 심화 개념
 
-다음 주제들은 Pulumi의 핵심 개념과 사용 방법에 대해 더 자세히 설명한다:
+다음 주제들은 Pulumi의 핵심 개념과 사용 방법에 대해 더 자세히 설명한다.
 
 - [Pulumi 개념](https://www.pulumi.com/docs/intro/concepts/)
 - [Pulumi 사용 방법](https://www.pulumi.com/docs/intro/usage/)
@@ -140,7 +140,7 @@ aws.cloudwatch.onSchedule
 
 Pulumi는 [Apache 2.0 라이선스](https://github.com/pulumi/pulumi/blob/master/LICENSE) 하에 오픈 소스이며, 많은 언어와 클라우드를 지원하고 쉽게 확장할 수 있다. 이 리포지토리에는 `pulumi` CLI, 언어 SDK 및 핵심 Pulumi 엔진이 포함되어 있으며, 개별 라이브러리는 자체 리포지토리에 있다.
 
-## 환영한다
+## Pulumi 공식 사이트 링크
 
 <img align="right" width="400" src="https://www.pulumi.com/images/docs/quickstart/console.png" />
 
@@ -150,7 +150,7 @@ Pulumi는 [Apache 2.0 라이선스](https://github.com/pulumi/pulumi/blob/master
 - [**문서**](https://www.pulumi.com/docs/): Pulumi 개념을 배우고, 사용자 가이드를 따르고, 참조 문서를 확인할 수 있다.
 - [**레지스트리**](https://www.pulumi.com/registry/): 필요한 자원을 포함한 Pulumi 패키지를 찾아볼 수 있다. 패키지를 프로젝트에 직접 설치하고 API 문서를 탐색하며 빌딩을 시작할 수 있다.
 - [**Pulumi 로드맵**](https://github.com/orgs/pulumi/projects/44): 다가오는 분기와 아직 일정이 잡히지 않은 백로그의 계획된 작업을 검토할 수 있다.
-- [**커뮤니티 Slack**](https://slack.pulumi.com/?utm_campaign=pulumi-pulumi-github-repo&utm_source=github.com&utm_medium=welcome-slack): Pulumi 커뮤니티 Slack에 참여할 수 있다. 모든 대화와 질문이 환영된다.
+- [**커뮤니티 Slack**](https://slack.pulumi.com/?utm_campaign=pulumi-pulumi-github-repo&utm_source=github.com&utm_medium=welcome-slack): Pulumi 커뮤니티 Slack에 참여할 수 있다.
 - [**GitHub Discussions**](https://github.com/pulumi/pulumi/discussions): 질문을 하거나 Pulumi로 무엇을 구축하고 있는지 공유할 수 있다.
 
 ## 시작하기
@@ -212,7 +212,7 @@ Pulumi는 [Apache 2.0 라이선스](https://github.com/pulumi/pulumi/blob/master
     
 6. **자원 제거**:
     
-    완료되면 프로그램에서 생성한 모든 자원을 제거할 수 있다:
+    완료되면 프로그램에서 생성한 모든 자원을 제거할 수 있다.
     
     ```bash
     $ pulumi destroy -y
@@ -238,7 +238,7 @@ Pulumi는 [Apache 2.0 라이선스](https://github.com/pulumi/pulumi/blob/master
 
 ### 지원 종료 릴리스
 
-Pulumi CLI v1 및 v2는 더 이상 지원되지 않는다. 아직 v3를 사용하지 않고 있다면 최신 및 최고의 Pulumi를 계속 사용하려면 v3로 마이그레이션하는 것을 고려해야 한다! :muscle:
+Pulumi CLI v1 및 v2는 더 이상 지원되지 않는다. 
 
 - v2에서 v3로 마이그레이션하려면 [v3 마이그레이션 가이드](https://www.pulumi.com/docs/install/migrating-3.0/)를 참조하면 된다.
 
