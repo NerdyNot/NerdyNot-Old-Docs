@@ -22,3 +22,7 @@ parts:
       sections:
       - file: Docs/AI/RemoteScriptAI/notebook.ipynb
         title: NoteBook
+  - caption: Continuous Integration & Continuous Delivery/Deployment
+    chapters:
+    - file: Docs/GitHubActions/index.md
+      title: GitHub Actions
