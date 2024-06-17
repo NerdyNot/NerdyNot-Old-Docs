@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: InfrastructureAsCode
+    chapters:
+    - file: Docs/Pulumi/index.md
+      title: Index
+      sections:
+      - file: Docs/Pulumi/install.md
+        title: Install Pulumi
+    - file: Docs/Pulumi/sample.md
+      title: Sample
+      sections:
+      - file: Docs/Pulumi/python-sample
+        title: Sample with Python
