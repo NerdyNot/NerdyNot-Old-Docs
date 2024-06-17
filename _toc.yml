@@ -6,19 +6,24 @@ root: intro
 parts:
   - caption: InfrastructureAsCode
     chapters:
-    - file: Docs/Pulumi/index.md
+    - file: Docs/IaC/Pulumi/index.md
       title: Pulumi
       sections:
-      - file: Docs/Pulumi/install.md
+      - file: Docs/IaC/Pulumi/install.md
         title: Install Pulumi
-      - file: Docs/Pulumi/python-sample
+      - file: Docs/IaC/Pulumi/python-sample
         title: Sample with Python
-      - file: Docs/Pulumi/python-import
+      - file: Docs/IaC/Pulumi/python-import
         title: Import Existing Resource with Python
-      - file: Docs/Pulumi/azure-simple-web
+      - file: Docs/IaC/Pulumi/azure-simple-web
         title: Azure 간단한 웹용 인프라 배포
-      - file: Docs/Pulumi/azure-import
+      - file: Docs/IaC/Pulumi/azure-import
         title: Azure 기존 리소스 가져오기
+    - file: Docs/IaC/Terraform/index.md
+      title: Terraform
+      sections:
+      - file: Docs/IaC/Terraform/az-lb-vm.md
+        title: Azure 간단한 LB, VM 구성
   - caption: Continuous Integration & Continuous Delivery/Deployment
     chapters:
     - file: Docs/CICD/GitHubActions/index
