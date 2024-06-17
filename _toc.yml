@@ -13,3 +13,5 @@ parts:
         title: Install Pulumi
       - file: Docs/Pulumi/python-sample
         title: Sample with Python
+      - file: Docs/Pulumi/python-sample
+        title: Import Existing Resource with Python
