@@ -24,5 +24,5 @@ parts:
     - file: Docs/AI/RemoteScriptAI/index
       title: RemoteScriptAI
       sections:
-      - file: Docs/AI/RemoteScriptAI/notebook.ipynb
+      - file: Docs/AI/RemoteScriptAI/guide
         title: Guide
