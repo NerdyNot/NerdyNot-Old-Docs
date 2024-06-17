@@ -24,6 +24,8 @@ parts:
       sections:
       - file: Docs/IaC/Terraform/az-lb-vm.md
         title: Azure 간단한 LB, VM 구성
+      - file: Docs/IaC/Terraform/az-import.md
+        title: Azure 기존 리소스 가져오기
   - caption: Continuous Integration & Continuous Delivery/Deployment
     chapters:
     - file: Docs/CICD/GitHubActions/index
