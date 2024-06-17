@@ -15,3 +15,10 @@ parts:
         title: Sample with Python
       - file: Docs/Pulumi/python-import
         title: Import Existing Resource with Python
+  - caption: AI
+    chapters:
+    - file: Docs/AI/RemoteScriptAI/index.md
+      title: RemoteScriptAI
+      sections:
+      - file: Docs/AI/RemoteScriptAI/notebook
+        title: NoteBook
