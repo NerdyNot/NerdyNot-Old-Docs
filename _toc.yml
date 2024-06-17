@@ -15,14 +15,15 @@ parts:
         title: Sample with Python
       - file: Docs/Pulumi/python-import
         title: Import Existing Resource with Python
+  - caption: Continuous Integration & Continuous Delivery/Deployment
+    chapters:
+    - file: Docs/GitHubActions/index
+      title: GitHub Actions
+
   - caption: AI
     chapters:
-    - file: Docs/AI/RemoteScriptAI/index.md
+    - file: Docs/AI/RemoteScriptAI/index
       title: RemoteScriptAI
       sections:
       - file: Docs/AI/RemoteScriptAI/notebook.ipynb
-        title: NoteBook
-  - caption: Continuous Integration & Continuous Delivery/Deployment
-    chapters:
-    - file: Docs/GitHubActions/index.md
-      title: GitHub Actions
+        title: Guide
