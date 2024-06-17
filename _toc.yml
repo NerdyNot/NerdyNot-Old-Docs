@@ -20,5 +20,5 @@ parts:
     - file: Docs/AI/RemoteScriptAI/index.md
       title: RemoteScriptAI
       sections:
-      - file: Docs/AI/RemoteScriptAI/notebook
+      - file: Docs/AI/RemoteScriptAI/notebook.ipynb
         title: NoteBook
