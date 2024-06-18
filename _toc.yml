@@ -40,5 +40,5 @@ parts:
     - file: Docs/AI/LangChain/LangChain
       title: LangChain
       sections:
-      - file: Docs/AI/LangChain/gymnasium_agent
-        title: Gymnasium Langchain Agent CookBook
+      - file: Docs/AI/LangChain/sample_agent
+        title: 에이전트 구축 가이드
