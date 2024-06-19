@@ -32,11 +32,6 @@ parts:
       title: GitHub Actions
   - caption: AI
     chapters:
-    - file: Docs/AI/RemoteScriptAI/index
-      title: RemoteScriptAI
-      sections:
-      - file: Docs/AI/RemoteScriptAI/guide
-        title: Guide
     - file: Docs/AI/LangChain/LangChain
       title: LangChain
       sections:
