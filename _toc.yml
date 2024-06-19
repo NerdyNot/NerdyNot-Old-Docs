@@ -40,5 +40,9 @@ parts:
     - file: Docs/AI/LangChain/LangChain
       title: LangChain
       sections:
+      - file: Docs/AI/LangChain/sample_llm
+        title: LangChain LLM Guide
+      - file: Docs/AI/LangChain/sample_chatbot
+        title: LangChain ChatBot App Guide
       - file: Docs/AI/LangChain/sample_agent
-        title: 에이전트 구축 가이드
+        title: LangChain Agent Guide
